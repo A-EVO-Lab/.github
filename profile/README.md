@@ -14,5 +14,6 @@ We believe the next leap in AI won't just come from larger pre-training, but fro
 ### 📢 News
 * **[2026.01]** Our position paper for Agentic Evolution: [https://arxiv.org/abs/2602.00359].
 
+![A-Evo Visualizer Dashboard](../A_EVOLVE_FRAMEWORK.png)
 ---
 [LinkedIn](https://www.linkedin.com/in/hanqing-lu/) | [Twitter/X](https://x.com/HenryL_AI) 
