@@ -8,7 +8,7 @@ Welcome to **A-Evo Lab**, a research initiative dedicated to the frontier of **S
 We believe the next leap in AI won't just come from larger pre-training, but from the ability of agents to **evolve through interaction, feedback, and self-correction.**
 
 ### 🛠 Active Research & Projects
-* **A-EVOLVE Visualizer**: A real-time dashboard for tracking agentic evolution traces and error analysis. [ [Live Demo](#) ]
+* **A-EVOLVE Visualizer**: A real-time dashboard for tracking agentic evolution traces and error analysis. [ [Live Demo](https://x.com/HenryL_AI/status/2024169025115463695) ]
 * **A-EVOLVE Framework**: Our core engine for agentic self-improvement in production environments. 
 
 ### 📢 News
