@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1100 500" xmlns="http://www.w3.org/2000/svg" role="img" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title>AI-Training reaches human parity at 30B</title>
+  <desc>An evolver autonomously runs end-to-end 30B post-training and scores 0.86, ranking 8 of 4000 human teams — within 0.01 of the human #1 at 0.87.</desc>
+
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="1084" height="484" rx="24" fill="url(#bg2)" stroke="#e2e8f0"/>
+
+  <!-- Title -->
+  <text x="64" y="66" font-size="13" font-weight="700" letter-spacing="2" fill="#7c3aed">AI-TRAINING · PREVIEW</text>
+  <text x="64" y="100" font-size="27" font-weight="800" fill="#0f172a">Autonomous Post-Training Reaches Human Parity at 30B</text>
+  <text x="64" y="128" font-size="16" fill="#475569">An evolver runs end-to-end 30B post-training — scored against 4,000 human teams.</text>
+
+  <!-- stat chips -->
+  <g>
+    <rect x="64" y="150" width="150" height="34" rx="17" fill="#f5f3ff"/>
+    <text x="139" y="172" font-size="14" font-weight="700" fill="#7c3aed" text-anchor="middle">rank 8 / 4000</text>
+    <rect x="226" y="150" width="120" height="34" rx="17" fill="#f5f3ff"/>
+    <text x="286" y="172" font-size="14" font-weight="700" fill="#7c3aed" text-anchor="middle">top 0.2%</text>
+    <rect x="358" y="150" width="178" height="34" rx="17" fill="#fffbeb"/>
+    <text x="447" y="172" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">Δ 0.01 to human #1</text>
+  </g>
+
+  <!-- ===== score axis + human field ===== -->
+  <!-- human field density (4000 teams) -->
+  <path d="M110 372 C 210 364, 330 302, 430 290 C 540 279, 620 312, 720 340 C 820 360, 900 368, 970 372 Z"
+        fill="#eef2f7" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="430" y="332" font-size="13" font-weight="600" fill="#94a3b8" text-anchor="middle">4,000 human teams</text>
+
+  <!-- axis -->
+  <line x1="110" y1="372" x2="970" y2="372" stroke="#94a3b8" stroke-width="2"/>
+  <g font-size="12" fill="#94a3b8" text-anchor="middle">
+    <line x1="110" y1="372" x2="110" y2="379" stroke="#94a3b8"/><text x="110" y="396">0.80</text>
+    <line x1="325" y1="372" x2="325" y2="379" stroke="#94a3b8"/><text x="325" y="396">0.82</text>
+    <line x1="540" y1="372" x2="540" y2="379" stroke="#94a3b8"/><text x="540" y="396">0.84</text>
+    <line x1="755" y1="372" x2="755" y2="379" stroke="#94a3b8"/><text x="755" y="396">0.86</text>
+    <line x1="970" y1="372" x2="970" y2="379" stroke="#94a3b8"/><text x="970" y="396">0.88</text>
+  </g>
+  <text x="540" y="420" font-size="12" fill="#94a3b8" text-anchor="middle">Kaggle competition score →</text>
+
+  <!-- Human #1 marker (0.87, x=862.5) -->
+  <line x1="862" y1="372" x2="862" y2="236" stroke="#d97706" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="862" cy="372" r="5" fill="#d97706"/>
+  <rect x="772" y="202" width="182" height="34" rx="8" fill="#fffbeb" stroke="#fcd34d"/>
+  <text x="863" y="224" font-size="13" font-weight="700" fill="#b45309" text-anchor="middle">Human #1 — 0.87</text>
+
+  <!-- Our system marker (0.86, x=755) -->
+  <line x1="755" y1="372" x2="755" y2="150" stroke="#7c3aed" stroke-width="3"/>
+  <circle cx="755" cy="372" r="7" fill="#7c3aed"/>
+  <rect x="628" y="104" width="254" height="50" rx="10" fill="#7c3aed"/>
+  <text x="755" y="126" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">A-Evolve — autonomous</text>
+  <text x="755" y="144" font-size="13" font-weight="600" fill="#ddd6fe" text-anchor="middle">0.86 · rank 8 / 4000</text>
+
+  <!-- footnote -->
+  <text x="64" y="462" font-size="12.5" fill="#64748b">End-to-end autonomous run: data mixture, training schedule, hyperparameters &amp; ablations — no human in the loop. First known autonomous match of a human post-training team at this scale.  •  Tech report in prep.</text>
+</svg>

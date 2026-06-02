@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1100 500" xmlns="http://www.w3.org/2000/svg" role="img" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title>Evolver capability barely matters</title>
+  <desc>Across seven evolvers from a 9B open model to a frontier model, harness-updating gain stays flat — a 9B model produces updates as good as Claude Opus 4.6.</desc>
+  <defs>
+    <linearGradient id="bgA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="1084" height="484" rx="24" fill="url(#bgA)" stroke="#e2e8f0"/>
+
+  <text x="64" y="62" font-size="13" font-weight="700" letter-spacing="2" fill="#7c3aed">AI-HARNESS · EVOLVER-SOLVER-BENCH</text>
+  <text x="64" y="98" font-size="27" font-weight="800" fill="#0f172a">Evolver Capability Barely Matters</text>
+  <text x="64" y="126" font-size="16" fill="#475569">Harness-updating gain stays flat — a 9B model matches a frontier evolver.</text>
+  <rect x="64" y="146" width="262" height="32" rx="16" fill="#f5f3ff"/>
+  <text x="195" y="167" font-size="13.5" font-weight="700" fill="#7c3aed" text-anchor="middle">best vs worst evolver ≤ 3.1pp</text>
+
+  <!-- axes -->
+  <line x1="130" y1="180" x2="130" y2="380" stroke="#cbd5e1"/>
+  <line x1="130" y1="380" x2="980" y2="380" stroke="#94a3b8" stroke-width="2"/>
+  <g font-size="12" fill="#94a3b8" text-anchor="end">
+    <text x="118" y="384">0</text><line x1="125" y1="380" x2="130" y2="380" stroke="#cbd5e1"/>
+    <text x="118" y="317">2</text><line x1="125" y1="313" x2="130" y2="313" stroke="#cbd5e1"/>
+    <text x="118" y="251">4</text><line x1="125" y1="247" x2="130" y2="247" stroke="#cbd5e1"/>
+    <text x="118" y="184">6</text><line x1="125" y1="180" x2="130" y2="180" stroke="#cbd5e1"/>
+  </g>
+  <text x="92" y="170" font-size="12" fill="#94a3b8" text-anchor="middle">gain (pp)</text>
+  <text x="555" y="408" font-size="13" fill="#94a3b8" text-anchor="middle">evolver base capability  (weak open model → frontier) →</text>
+
+  <!-- mean line -->
+  <line x1="130" y1="253" x2="980" y2="253" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="974" y="247" font-size="12" font-weight="600" fill="#94a3b8" text-anchor="end">mean ≈ 3.8 pp</text>
+
+  <!-- parity callout -->
+  <rect x="372" y="186" width="366" height="30" rx="15" fill="#f5f3ff"/>
+  <text x="555" y="206" font-size="14" font-weight="700" fill="#7c3aed" text-anchor="middle">9B open model ≈ frontier model</text>
+
+  <!-- connector between 9B and Opus -->
+  <line x1="185" y1="250" x2="920" y2="253" stroke="#7c3aed" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="552" y="244" font-size="22" font-weight="800" fill="#7c3aed" text-anchor="middle">≈</text>
+
+  <!-- mid-tier evolver dots (grey) -->
+  <g fill="#94a3b8">
+    <circle cx="300" cy="273" r="6"/>
+    <circle cx="420" cy="267" r="6"/>
+    <circle cx="555" cy="260" r="6"/>
+    <circle cx="685" cy="237" r="6"/>
+    <circle cx="810" cy="257" r="6"/>
+  </g>
+
+  <!-- highlighted endpoints -->
+  <circle cx="185" cy="250" r="9" fill="#7c3aed"/>
+  <circle cx="920" cy="253" r="9" fill="#7c3aed"/>
+  <text x="185" y="305" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Qwen3.5-9B</text>
+  <text x="185" y="322" font-size="11" fill="#94a3b8" text-anchor="middle">open 9B</text>
+  <text x="920" y="305" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Opus 4.6</text>
+  <text x="920" y="322" font-size="11" fill="#94a3b8" text-anchor="middle">frontier</text>
+
+  <text x="64" y="462" font-size="12.5" fill="#64748b">7 evolvers × 6 solver agents × 3 benchmarks (SWE-bench Verified, MCP-Atlas, SkillsBench).  Implication: spend capability budget on the agent, not the evolver.</text>
+</svg>

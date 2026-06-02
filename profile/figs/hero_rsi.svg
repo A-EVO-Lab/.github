@@ -1,0 +1,94 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" role="img" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title>An AI researcher for every stage of building AI</title>
+  <desc>Humans build AI in three stages — pre-training, post-training, and harness building. A-Evo Lab builds an autonomous AI researcher to take over each stage, closing a recursive self-improvement loop.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#cbd5e1"/>
+    </marker>
+    <marker id="ahp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+
+  <rect x="8" y="8" width="1184" height="584" rx="24" fill="url(#bg)" stroke="#e2e8f0"/>
+
+  <!-- Title -->
+  <text x="64" y="74" font-size="13" font-weight="700" letter-spacing="2" fill="#7c3aed">THE PATH TO RSI · A-EVO LAB</text>
+  <text x="64" y="116" font-size="33" font-weight="800" fill="#0f172a">An AI Researcher for Every Stage of Building AI</text>
+  <text x="64" y="148" font-size="17" fill="#475569">Recursive self-improvement = let AI take over how humans build AI.</text>
+
+  <!-- ===== STAGE CARDS ===== -->
+  <!-- Card 1: Pre-training (future) -->
+  <g>
+    <rect x="64" y="195" width="250" height="225" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-dasharray="5 5"/>
+    <text x="84" y="227" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">HUMAN STAGE</text>
+    <!-- human -> AI motif -->
+    <circle cx="96" cy="256" r="7" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M86 270 a10 8 0 0 1 20 0" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="84" y1="246" x2="108" y2="270" stroke="#cbd5e1" stroke-width="2"/>
+    <line x1="116" y1="258" x2="138" y2="258" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah)"/>
+    <rect x="146" y="247" width="26" height="22" rx="5" fill="#94a3b8"/>
+    <text x="159" y="262" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">AI</text>
+    <text x="84" y="312" font-size="19" font-weight="700" fill="#475569">Pre-training</text>
+    <line x1="84" y1="328" x2="294" y2="328" stroke="#e2e8f0"/>
+    <text x="84" y="356" font-size="15" font-weight="700" fill="#94a3b8">→ AI-Pretraining</text>
+    <rect x="84" y="372" width="120" height="26" rx="13" fill="#f1f5f9"/>
+    <text x="99" y="389" font-size="12" font-weight="600" fill="#64748b">Open frontier</text>
+  </g>
+
+  <!-- Card 2: Post-training -->
+  <g>
+    <rect x="360" y="195" width="250" height="225" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="380" y="227" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">HUMAN STAGE</text>
+    <circle cx="392" cy="256" r="7" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M382 270 a10 8 0 0 1 20 0" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="380" y1="246" x2="404" y2="270" stroke="#cbd5e1" stroke-width="2"/>
+    <line x1="412" y1="258" x2="434" y2="258" stroke="#2563eb" stroke-width="2" marker-end="url(#ah)"/>
+    <rect x="442" y="247" width="26" height="22" rx="5" fill="#2563eb"/>
+    <text x="455" y="262" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">AI</text>
+    <text x="380" y="312" font-size="19" font-weight="700" fill="#0f172a">Post-training</text>
+    <line x1="380" y1="328" x2="590" y2="328" stroke="#e2e8f0"/>
+    <text x="380" y="356" font-size="15" font-weight="700" fill="#2563eb">→ AI-Training</text>
+    <rect x="380" y="372" width="186" height="26" rx="13" fill="#eff6ff"/>
+    <text x="395" y="389" font-size="12" font-weight="600" fill="#1d4ed8">Human parity @ 30B · soon</text>
+  </g>
+
+  <!-- Card 3: Harness building -->
+  <g>
+    <rect x="656" y="195" width="250" height="225" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="676" y="227" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">HUMAN STAGE</text>
+    <circle cx="688" cy="256" r="7" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M678 270 a10 8 0 0 1 20 0" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="676" y1="246" x2="700" y2="270" stroke="#cbd5e1" stroke-width="2"/>
+    <line x1="708" y1="258" x2="730" y2="258" stroke="#10b981" stroke-width="2" marker-end="url(#ah)"/>
+    <rect x="738" y="247" width="26" height="22" rx="5" fill="#10b981"/>
+    <text x="751" y="262" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">AI</text>
+    <text x="676" y="312" font-size="19" font-weight="700" fill="#0f172a">Harness building</text>
+    <line x1="676" y1="328" x2="886" y2="328" stroke="#e2e8f0"/>
+    <text x="676" y="356" font-size="15" font-weight="700" fill="#059669">→ AI-Harness <tspan fill="#94a3b8" font-weight="600">(+Adaptive)</tspan></text>
+    <rect x="676" y="372" width="150" height="26" rx="13" fill="#ecfdf5"/>
+    <text x="691" y="389" font-size="12" font-weight="600" fill="#047857">✓ SOTA across benchmarks</text>
+  </g>
+
+  <!-- inter-card arrows -->
+  <line x1="320" y1="307" x2="354" y2="307" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#ah)"/>
+  <line x1="616" y1="307" x2="650" y2="307" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#ah)"/>
+  <line x1="912" y1="307" x2="960" y2="307" stroke="#cbd5e1" stroke-width="2.5" marker-end="url(#ah)"/>
+
+  <!-- Output node -->
+  <rect x="968" y="252" width="168" height="110" rx="16" fill="#0f172a"/>
+  <text x="1052" y="298" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">Capable</text>
+  <text x="1052" y="322" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">AI Agent</text>
+  <text x="1052" y="344" font-size="11" fill="#94a3b8" text-anchor="middle">stronger every round</text>
+
+  <!-- RSI feedback loop -->
+  <path d="M1052 362 C 1052 470 1000 502 900 502 L 270 502 C 200 502 200 470 200 432"
+        fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#ahp)"/>
+  <rect x="476" y="488" width="248" height="28" rx="14" fill="#f5f3ff"/>
+  <text x="600" y="507" font-size="13" font-weight="700" fill="#7c3aed" text-anchor="middle">recursive self-improvement loop</text>
+</svg>

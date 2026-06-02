@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1100 500" xmlns="http://www.w3.org/2000/svg" role="img" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title>Self-evolving agents peak early then decline</title>
+  <desc>A single dense harness overfits to early stream evidence: its pass-rate lift rises, peaks, then falls below zero. Adaptive Auto-Harness sustains the gains across the stream.</desc>
+  <defs>
+    <linearGradient id="bgB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="1084" height="484" rx="24" fill="url(#bgB)" stroke="#e2e8f0"/>
+
+  <text x="64" y="62" font-size="13" font-weight="700" letter-spacing="2" fill="#7c3aed">AI-HARNESS · ADAPTIVE</text>
+  <text x="64" y="98" font-size="27" font-weight="800" fill="#0f172a">Self-Evolving Agents Peak Early — Then Decline</text>
+  <text x="64" y="126" font-size="16" fill="#475569">A single dense harness overfits to early evidence. Adaptive keeps the gains.</text>
+
+  <!-- legend -->
+  <g>
+    <line x1="64" y1="150" x2="92" y2="150" stroke="#d97706" stroke-width="3"/>
+    <text x="100" y="155" font-size="13" font-weight="600" fill="#b45309">Single dense harness (naive)</text>
+    <line x1="320" y1="150" x2="348" y2="150" stroke="#7c3aed" stroke-width="3"/>
+    <text x="356" y="155" font-size="13" font-weight="600" fill="#7c3aed">Adaptive Auto-Harness (ours)</text>
+  </g>
+
+  <!-- plot frame -->
+  <line x1="130" y1="190" x2="130" y2="400" stroke="#cbd5e1"/>
+  <line x1="130" y1="300" x2="990" y2="300" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="996" y="304" font-size="12" font-weight="600" fill="#94a3b8">0 (no-evolution)</text>
+  <text x="96" y="200" font-size="12" fill="#94a3b8" text-anchor="middle">lift</text>
+  <text x="96" y="312" font-size="11" fill="#cbd5e1" text-anchor="middle">+</text>
+  <text x="555" y="430" font-size="13" fill="#94a3b8" text-anchor="middle">task-stream progress  (early → late) →</text>
+
+  <!-- naive curve: rise, peak, decline below zero -->
+  <path d="M130 300 C 210 240, 300 210, 350 206 C 440 198, 500 248, 600 300 C 690 346, 790 366, 900 374 L 980 378"
+        fill="none" stroke="#d97706" stroke-width="3.5"/>
+  <!-- adaptive curve: rise and stay high -->
+  <path d="M130 300 C 220 234, 320 214, 420 210 C 560 205, 700 214, 820 212 C 890 211, 950 210, 980 210"
+        fill="none" stroke="#7c3aed" stroke-width="3.5"/>
+
+  <!-- annotations -->
+  <circle cx="350" cy="206" r="5" fill="#d97706"/>
+  <text x="352" y="192" font-size="12.5" font-weight="700" fill="#b45309" text-anchor="middle">peaks early…</text>
+  <text x="820" y="360" font-size="12.5" font-weight="700" fill="#b45309" text-anchor="middle">…then overfits ↓</text>
+  <text x="700" y="196" font-size="12.5" font-weight="700" fill="#7c3aed" text-anchor="middle">Adaptive sustains ↑</text>
+
+  <!-- overfit skill callout -->
+  <circle cx="600" cy="300" r="4" fill="#d97706"/>
+  <rect x="470" y="306" width="260" height="26" rx="13" fill="#fffbeb"/>
+  <text x="600" y="324" font-size="11.5" font-weight="600" fill="#b45309" text-anchor="middle">overfit skill: news_from_future.md</text>
+
+  <text x="64" y="462" font-size="12.5" fill="#64748b">Pass-rate lift vs. the no-evolution solver across a chronological stream.  Adaptive = stateful multi-agent evolver + harness tree + solve-time routing.</text>
+</svg>
