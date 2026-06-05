@@ -167,7 +167,7 @@ results = evolver.run(cycles=10)        # SOTA agent. 3 lines. 0 hours of manual
 
 ## 📫 Contact
 
-**Building in this direction, or want to collaborate?** Reach out — [X / Twitter](https://x.com/HenryL_AI) · [LinkedIn](https://www.linkedin.com/in/hanqing-lu/).
+**Building in this direction, or want to collaborate?** Reach out — [X / Twitter](https://x.com/HenryL_AI) · [LinkedIn](https://www.linkedin.com/in/hanqinglu/).
 
 ---
 
