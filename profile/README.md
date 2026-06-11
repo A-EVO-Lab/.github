@@ -111,6 +111,7 @@ With **zero manual harness engineering**, A-Evolve's reference algorithms push a
 <p align="center"><img src="figs/fig_9b_vs_opus.png" alt="Evolver capability barely matters — a 9B model matches Opus 4.6" width="85%"/></p>
 
 📄 **Evolver-Solver-Bench** — *Harness Updating Is Not Harness Benefit.* [arXiv 2605.30621](https://arxiv.org/abs/2605.30621) · [HF Daily](https://huggingface.co/papers/2605.30621)
+
 📄 **Evo-Harness** — *Context-to-Harness Skill Compilation* (online evolution: feedback grounding, abstraction level, solver–evolver alignment). *Releasing soon.*
 
 ### ↳ Adaptive — sustaining agents on long-running streams
@@ -125,7 +126,7 @@ Naive self-evolving agents **peak early and then decline** — a single dense ha
 
 <p align="center"><img src="figs/fig_peak_and_decline.png" alt="Self-evolving agents peak early then decline; Adaptive sustains the gains" width="85%"/></p>
 
-📄 **Adaptive Auto-Harness** — *Sustained Self-Improvement on Open-Ended Task Streams.* *Releasing soon.*
+📄 **Adaptive Auto-Harness** — *Sustained Self-Improvement on Open-Ended Task Streams.* [arXiv 2606.01770](https://arxiv.org/abs/2606.01770) 
 
 ---
 
@@ -160,8 +161,6 @@ results = evolver.run(cycles=10)        # SOTA agent. 3 lines. 0 hours of manual
 **Adopted & integrated by:** OpenRLHF · DeepSpeed · SGLang · GEPA · AutoResearch
 
 ⭐ Star the repo → [github.com/A-EVO-Lab/a-evolve](https://github.com/A-EVO-Lab/a-evolve)
-
-<p align="center"><img src="../A_EVOLVE_FRAMEWORK.png" alt="A-Evolve framework" width="80%"/></p>
 
 ---
 
