@@ -172,7 +172,8 @@ results = evolver.run(cycles=10)        # SOTA agent. 3 lines. 0 hours of manual
 ---
 
 ## 📢 News
-- **5/30** **New Paper** — [*Harness Updating Is Not Harness Benefit*](https://arxiv.org/abs/2605.30621) (arXiv 2605.30621). 7 evolver models × 6 solver agents × 3 benchmarks: counterintuitive answers on *who* produces good harness updates and *who* benefits.
+- **6/1** **New Research Paper**, [*Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams*](https://arxiv.org/abs/2606.01770) (arXiv 2606.01770). We address the brittleness of traditional auto-harness systems when moving from fixed benchmarks to open-ended, shifting task streams. We introduce **Adaptive Auto-Harness**, a framework that significantly outperforms five existing auto-harness baselines across prediction-market, security-competition, and event-forecasting streams. Code and algorithms are available at [A-Evolve](https://github.com/A-EVO-Lab/a-evolve/)
+- **5/30** **New Paper** — [*Harness Updating Is Not Harness Benefit*](https://arxiv.org/abs/2605.30621) (arXiv 2605.30621). 7 evolver models × 6 solver agents × 3 benchmarks: counterintuitive answers on *who* produces good harness updates and *who* benefits. Code and algorithms are available at [A-Evolve](https://github.com/A-EVO-Lab/a-evolve/)
 - **05/04** **New Benchmark Results** — A-Evolve [results](https://x.com/HenryL_AI/status/2051711038618480816?s=20) on [ARC-AGI-3](https://arcprize.org/arc-agi/3), evolving a multi-agent system from 10% → 12%.
 - **04/20** **New Algorithm** — [GEPA](https://x.com/HenryL_AI/status/2046326722912739713?s=20), submitted by the [GEPA](https://gepa-ai.github.io/gepa/blog/) team.
 - **04/10** **Integration** — into [Orch-Research Skills Library](https://x.com/HenryL_AI/status/2042688465855488476), alongside AutoResearch, OpenRLHF, DeepSpeed, SGLang.
