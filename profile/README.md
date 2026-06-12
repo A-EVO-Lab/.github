@@ -16,7 +16,7 @@ A-Evo Lab, led by [Henry Lu](https://x.com/HenryL_AI), studies **self-evolving a
 | :--- | :--- | :--- | :--- |
 | Harness building | **AI-Harness** | Evolves prompts / skills / memory / tools around a frozen model | ✅ SOTA across benchmarks |
 | ↳ long-running deployment | **AI-Harness · Adaptive** | Sustains performance on open-ended task streams | ✅ Leads every reported stream metric |
-| Post-training | **AI-Training** | Designs data mixtures, schedules, HPs & ablations end-to-end | 🔜 Human-team parity @ 30B — *report in prep* |
+| Post-training | **AI-Training** | Designs data mixtures, schedules, HPs & ablations end-to-end | 🔜 First public datapoint of Auto-post-training on 30B scale |
 | Pre-training | **AI-Pretraining** | — | 🧭 The open frontier |
 
 ---
