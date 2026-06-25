@@ -6,7 +6,7 @@
 
 > **The path to recursive self-improvement (RSI) is to let AI take over how humans build AI.**
 
-A-Evo Lab, led by [Henry Lu](https://x.com/HenryL_AI), studies **self-evolving agents** under one thesis — **AI-as-researcher**: frontier agents and models play the *researcher* in the loop that builds better AI. Today humans build AI in three critical stages — **pre-training → post-training → harness building**. We are building an autonomous AI researcher for each, have reached **SOTA results** where we've shipped, and develop everything on **one shared stack, [A-Evolve](https://github.com/A-EVO-Lab/a-evolve)**, so we can iterate fast.
+We studies **self-evolving agents** under one thesis — **AI-as-researcher**: frontier agents and models play the *researcher* in the loop that builds better AI. Today humans build AI in three critical stages — **pre-training → post-training → harness building**. We are building an autonomous AI researcher for each, have reached **SOTA results** where we've shipped, and develop everything on **one shared stack, [A-Evolve](https://github.com/A-EVO-Lab/a-evolve)**, so we can iterate fast.
 
 ---
 
@@ -162,12 +162,6 @@ results = evolver.run(cycles=10)        # SOTA agent. 3 lines. 0 hours of manual
 ⭐ Star the repo → [github.com/A-EVO-Lab/a-evolve](https://github.com/A-EVO-Lab/a-evolve)
 
 <p align="center"><img src="A_EVOLVE_FRAMEWORK.png" alt="A-Evolve framework" width="80%"/></p>
-
----
-
-## 📫 Contact
-
-**Building in this direction, or want to collaborate?** Reach out — [X / Twitter](https://x.com/HenryL_AI) · [LinkedIn](https://www.linkedin.com/in/hanqinglu/).
 
 ---
 
