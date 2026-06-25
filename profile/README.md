@@ -6,7 +6,7 @@
 
 > **The path to recursive self-improvement (RSI) is to let AI take over how humans build AI.**
 
-A-Evo Lab, led by [Henry Lu](https://x.com/HenryL_AI), studies **self-evolving agents** under one thesis — **AI-as-researcher**: frontier agents and models play the *researcher* in the loop that builds better AI. Today humans build AI in three critical stages — **pre-training → post-training → harness building**. We are building an autonomous AI researcher for each, have reached **SOTA results** where we've shipped, and develop everything on **one shared stack, [A-Evolve](https://github.com/A-EVO-Lab/a-evolve)**, so we can iterate fast.
+We studies **self-evolving agents** under one thesis — **AI-as-researcher**: frontier agents and models play the *researcher* in the loop that builds better AI. Today humans build AI in three critical stages — **pre-training → post-training → harness building**. We are building an autonomous AI researcher for each, have reached **SOTA results** where we've shipped, and develop everything on **one shared stack, [A-Evolve](https://github.com/A-EVO-Lab/a-evolve)**, so we can iterate fast.
 
 ---
 
@@ -168,14 +168,7 @@ results = evolver.run(cycles=10)        # SOTA agent. 3 lines. 0 hours of manual
 
 ---
 
-## 📫 Contact
-
-**Building in this direction, or want to collaborate?** Reach out — [X / Twitter](https://x.com/HenryL_AI) · [LinkedIn](https://www.linkedin.com/in/hanqinglu/).
-
----
-
 ## 📢 News
-- **6/11** **New Tech Report on Auto-post-training**, [*A-Evolve-Training: Autonomous Post-Training of a 30B Model*](https://a-evo-lab.github.io/a-evolve-training/a-evolve-training.pdf). We bulit an AI system that ran the post-training loop for a 30B model — with no human in the loop. Four self-directed rounds on GPU clusters. The autonomously produced model placed 8th of ~4,000 on NVIDIA's Nemotron Reasoning Challenge — one point behind the top human team. The same autonomous system has since post-trained the 120B and 550B Nemotron models. This is, to the best of our knowledge, first public evidence at this scale.
 - **6/1** **New Research Paper**, [*Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams*](https://arxiv.org/abs/2606.01770) (arXiv 2606.01770). We address the brittleness of traditional auto-harness systems when moving from fixed benchmarks to open-ended, shifting task streams. We introduce **Adaptive Auto-Harness**, a framework that significantly outperforms five existing auto-harness baselines across prediction-market, security-competition, and event-forecasting streams. Code and algorithms are available at [A-Evolve](https://github.com/A-EVO-Lab/a-evolve/)
 - **5/30** **New Paper** — [*Harness Updating Is Not Harness Benefit*](https://arxiv.org/abs/2605.30621) (arXiv 2605.30621). 7 evolver models × 6 solver agents × 3 benchmarks: counterintuitive answers on *who* produces good harness updates and *who* benefits. Code and algorithms are available at [A-Evolve](https://github.com/A-EVO-Lab/a-evolve/)
 - **05/04** **New Benchmark Results** — A-Evolve [results](https://x.com/HenryL_AI/status/2051711038618480816?s=20) on [ARC-AGI-3](https://arcprize.org/arc-agi/3), evolving a multi-agent system from 10% → 12%.
