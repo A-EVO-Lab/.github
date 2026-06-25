@@ -138,7 +138,7 @@ Four self-directed rounds on a production GPU cluster. The autonomously produced
 
 The same autonomous system has since post-trained the 120B and 550B Nemotron models end-to-end — evidence the loop closes at that scale too. (No public human baseline exists there yet, so we report it as infrastructure evidence, not a competitiveness claim.)
 
-**Tech report** — [Tech Blog](https://a-evo-lab.github.io/a-evolve-training/) [Tech Report](https://a-evo-lab.github.io/a-evolve-training/a-evolve-training.pdf).
+<!-- **Tech report** — [Tech Blog](https://a-evo-lab.github.io/a-evolve-training/) [Tech Report](https://a-evo-lab.github.io/a-evolve-training/a-evolve-training.pdf). -->
 
 <!-- Figure ready (figs/fig_30b_parity.png) — hold until the tech report is public, then uncomment: -->
 <!-- <p align="center"><img src="figs/fig_30b_parity.png" alt="Autonomous post-training reaches human parity at 30B" width="80%"/></p> -->
