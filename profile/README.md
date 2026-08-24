@@ -110,9 +110,9 @@ With **zero manual harness engineering**, A-Evolve's reference algorithms push a
 
 <p align="center"><img src="figs/fig_9b_vs_opus.png" alt="Evolver capability barely matters — a 9B model matches Opus 4.6" width="85%"/></p>
 
-📄 **Evolver-Solver-Bench** — *Harness Updating Is Not Harness Benefit.* [arXiv 2605.30621](https://arxiv.org/abs/2605.30621) · [HF Daily](https://huggingface.co/papers/2605.30621)
+📄 **Evolver-Solver-Bench** — *Harness Updating Is Not Harness Benefit.* [arXiv 2605.30621](https://arxiv.org/abs/2605.30621) · [HF Daily](https://huggingface.co/papers/2605.30621) **EMNLP 2026**
 
-📄 **Evo-Harness** — *Context-to-Harness Skill Compilation* [arXiv 2608.15071](https://arxiv.org/abs/2608.15071).
+📄 **Evo-Harness** — *Context-to-Harness Skill Compilation* [arXiv 2608.15071](https://arxiv.org/abs/2608.15071). **EMNLP 2026**
 
 ### ↳ Adaptive — sustaining agents on long-running streams
 
