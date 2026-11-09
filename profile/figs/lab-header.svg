@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 268" role="img" aria-labelledby="title desc">
+  <title id="title">A-EVO Lab</title>
+  <desc id="desc">We train AI researchers. Recursive self-improvement research at Amazon.</desc>
+  <rect width="1200" height="268" rx="16" fill="#f2f5ef"/>
+  <path d="M884 0h316v268H884z" fill="#e8eee5"/>
+  <g fill="none" stroke="#b2c6b5" stroke-width="2">
+    <path d="M937 209V79h76v60h76V49h76v160"/>
+    <path d="M908 209h285"/>
+    <path d="M937 106h228" stroke-dasharray="4 8"/>
+  </g>
+  <g fill="#227552">
+    <circle cx="937" cy="79" r="7"/>
+    <circle cx="1013" cy="139" r="7"/>
+    <circle cx="1089" cy="49" r="7"/>
+  </g>
+  <rect x="40" y="38" width="52" height="52" rx="12" fill="#242c25"/>
+  <path d="m50 77 16-29 16 29M57 65h18M58 77h16" fill="none" stroke="#f6f5f0" stroke-width="3"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="110" y="77" font-size="42" font-weight="700" letter-spacing="-1" fill="#172b25">A-EVO Lab</text>
+    <text x="40" y="162" font-size="57" font-weight="700" letter-spacing="-2" fill="#172b25">We train AI researchers.</text>
+    <text x="43" y="216" font-size="25" fill="#42634f">Recursive self-improvement · Amazon</text>
+  </g>
+</svg>
